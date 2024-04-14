@@ -1,0 +1,4 @@
+@mixin outline($outline-color) {
+  outline: 2px dashed $outline-color;
+  outline-offset: 2px;
+}

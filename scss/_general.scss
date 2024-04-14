@@ -29,3 +29,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+*:focus {
+  @include outline($color-primary);
+}
