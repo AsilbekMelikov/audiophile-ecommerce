@@ -2,11 +2,15 @@
 :root {
   --color-brown: #d87d4a;
   --color-brown-light: #fbaf85;
-  --color-dark: #000000;
+  --color-black: #000000;
   --color-grey-dark: #101010;
   --color-grey-darker: #4c4c4c;
   --color-grey: #f1f1f1;
   --color-light: #fafafa;
   --color-white: #ffffff;
   --color-red: #cd2c2c;
+
+  --container-paddding: 40px;
+  --color-bg-body: var(--color-light);
+  --color-body-text: var(--color-black);
 }
