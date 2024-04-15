@@ -184,6 +184,7 @@ a:active {
   text-align: center;
   cursor: pointer;
   text-decoration: none;
+  white-space: nowrap;
 }
 .button:hover {
   background-color: var(--color-grey-darker);
@@ -230,6 +231,7 @@ a:active {
   opacity: 0.6;
 }
 .arrow-link::after {
+  flex-shrink: 0;
   width: 8px;
   height: 12px;
   background-image: url("../images/arrow-right-primary.svg");
