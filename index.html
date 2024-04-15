@@ -8,10 +8,59 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body style="padding: 32px; gap: 24px">
-    <div class="container"><h1>UI elements</h1></div>
     <div class="container">
+      <h1>UI elements</h1>
+    </div>
+
+    <section class="container">
+      <h2>Number controls</h2>
+
+      <div style="display: grid; gap: 24px; justify-items: start">
+        <a class="button" href="#">Button</a>
+        <a class="button button--block" href="#">Button block</a>
+        <a class="button button--primary" href="#">Button Button primary</a>
+        <a class="button button--primary button--block" href="#"
+          >Button Button primary Button block</a
+        >
+        <a class="button button--outline" href="#">Button Button outline</a>
+        <a class="button button--outline button--block" href="#"
+          >Button Button outline Button block</a
+        >
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Arrow links</h2>
+
+      <div style="display: grid; gap: 24px; justify-items: start">
+        <a class="arrow-link" href="#">Shop</a>
+
+        <div
+          style="
+            position: relative;
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+          "
+        >
+          <a class="arrow-link arrow-link--stretched" href="#"
+            >Shop stretched</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Back link</h2>
+
+      <div style="display: grid; gap: 24px; justify-items: start">
+        <a class="back-link" href="#">Go back</a>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Number controls</h2>
       <div style="display: grid; gap: 24px">
-        <h1>Number controls</h1>
         <div class="number-controls" data-item-count="1">
           <p class="number-controls__count">
             <span class="visually-hidden">Count</span>
@@ -52,7 +101,7 @@
           </button>
         </div>
       </div>
-    </div>
+    </section>
 
     <script src="js/main.js"></script>
   </body>
