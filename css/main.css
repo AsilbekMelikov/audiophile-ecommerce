@@ -278,6 +278,17 @@ a:active {
   color: var(--color-primary);
 }
 
+.logo {
+  display: block;
+  text-decoration: none;
+}
+
+.logo__img {
+  width: 143px;
+  height: 25px;
+  object-fit: contain;
+}
+
 /* NUMBER CONTROLS */
 .number-controls {
   display: grid;
