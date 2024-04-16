@@ -2,3 +2,9 @@
   outline: 2px dashed $outline-color;
   outline-offset: 2px;
 }
+
+@mixin transition($properties...) {
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-property: $properties;
+}
