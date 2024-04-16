@@ -1,5 +1,6 @@
 /* COLORS */
 /* SPACING */
+/* TRANSITION */
 /* CUSTOM PROPS */
 :root {
   --color-brown: #d87d4a;
@@ -137,6 +138,9 @@ img {
 
 a {
   color: var(--color-primary);
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-property: color, opacity;
 }
 a:hover {
   text-decoration: none;
@@ -193,6 +197,9 @@ a:active {
   cursor: pointer;
   text-decoration: none;
   white-space: nowrap;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-property: background-color, opacity, color;
 }
 .button:hover {
   background-color: var(--color-grey-darker);
@@ -297,6 +304,9 @@ a:active {
   padding: 0;
   color: rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-property: opacity, color;
 }
 .number-controls__button--decrement {
   order: -1;

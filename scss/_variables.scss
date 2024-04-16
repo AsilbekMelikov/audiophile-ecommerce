@@ -17,6 +17,9 @@ $color-body-text: $color-black;
 /* SPACING */
 $container-padding: 24px;
 
+/* TRANSITION */
+$transition-duration: 0.3s;
+
 /* CUSTOM PROPS */
 :root {
   --color-brown: #{$color-brown};
