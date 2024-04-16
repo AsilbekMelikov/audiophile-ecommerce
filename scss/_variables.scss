@@ -1,4 +1,5 @@
 // SASS VARIABLES
+/* COLORS */
 $color-brown: #d87d4a;
 $color-brown-light: #fbaf85;
 $color-black: #000000;
@@ -9,11 +10,12 @@ $color-light: #fafafa;
 $color-white: #ffffff;
 $color-red: #cd2c2c;
 
-$container-padding: 40px;
-
 $color-primary: $color-brown;
 $color-bg-body: $color-light;
 $color-body-text: $color-black;
+
+/* SPACING */
+$container-padding: 24px;
 
 /* CUSTOM PROPS */
 :root {
