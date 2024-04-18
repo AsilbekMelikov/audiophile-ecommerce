@@ -26,6 +26,7 @@
     color: $color-white;
   }
 
+  /* HERO */
   .product-info--hero & {
     margin-bottom: 24px;
     font-size: 2.25rem;
@@ -38,11 +39,38 @@
       letter-spacing: 0.125rem;
     }
   }
+
+  /* CATEGORY PAGE */
+  .product-info--category-page & {
+    margin-bottom: 24px;
+
+    @include breakpoint-up(48em) {
+      margin-bottom: 32px;
+      font-size: 2.5rem;
+      line-height: 2.75rem;
+      letter-spacing: 0.08931rem;
+    }
+  }
+
+  /* PRODUCT PAGE */
+  .product-info--product-page & {
+    margin-bottom: 24px;
+
+    @include breakpoint-up(48em) {
+      margin-bottom: 32px;
+      line-height: 114.286%;
+    }
+
+    @include breakpoint-up(62em) {
+      font-size: 2.5rem;
+      line-height: 110%;
+      letter-spacing: 0.08931rem;
+    }
+  }
 }
 
 .product-info__new {
   order: -1;
-  margin-bottom: 24px;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: normal;
@@ -54,6 +82,7 @@
     color: color.scale($color-white, $alpha: -50%);
   }
 
+  /* HERO */
   .product-info--hero & {
     margin-bottom: 16px;
 
@@ -61,20 +90,55 @@
       margin-bottom: 24px;
     }
   }
+
+  /* CATEGORY PAGE */
+  .product-info--category-page & {
+    margin-bottom: 24px;
+
+    @include breakpoint-up(48em) {
+      margin-bottom: 16px;
+    }
+  }
+
+  /* PRODUCT PAGE */
+  .product-info--product-page & {
+    margin-bottom: 24px;
+
+    @include breakpoint-up(48em) {
+      margin-bottom: 16px;
+    }
+  }
 }
 
 .product-info__text {
-  margin-bottom: 24px;
-
   .product-info--white & {
     color: color.scale($color-white, $alpha: -25%);
   }
 
+  /* HERO */
   .product-info--hero & {
     margin-bottom: 28px;
 
     @include breakpoint-up(48em) {
       margin-bottom: 40px;
+    }
+  }
+
+  /* CATEGORY PAGE */
+  .product-info--category-page & {
+    margin-bottom: 24px;
+
+    @include breakpoint-up(62em) {
+      margin-bottom: 40px;
+    }
+  }
+
+  /* PRODUCT PAGE */
+  .product-info--product-page & {
+    margin-bottom: 24px;
+
+    @include breakpoint-up(48em) {
+      margin-bottom: 32px;
     }
   }
 }
@@ -84,6 +148,10 @@
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 32px;
+
+  @include breakpoint-up(62em) {
+    margin-bottom: 48px;
+  }
 }
 
 .product-info__price {
