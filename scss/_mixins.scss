@@ -27,3 +27,18 @@
   background-color: $bgcolor;
   border-radius: $bdrs;
 }
+
+@mixin product-shadow($bottom, $width, $height, $opacity) {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  bottom: $bottom;
+  transform: translateX(-50%);
+  width: $width;
+  height: $height;
+  background-color: var(--color-black);
+  opacity: $opacity;
+  border-radius: 50%;
+  content: "";
+  filter: blur(21.746253967285156px);
+}
