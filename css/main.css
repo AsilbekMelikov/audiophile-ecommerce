@@ -827,6 +827,35 @@ a:active {
   }
 }
 
+/* CATEGORY-PRODUCTS */
+.category-products {
+  padding-top: 64px;
+  padding-bottom: 120px;
+}
+@media only screen and (min-width: 48em) {
+  .category-products {
+    padding-top: 120px;
+  }
+}
+@media only screen and (min-width: 62em) {
+  .category-products {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+}
+
+.category-products__list {
+  display: grid;
+  gap: 120px;
+  padding: 0;
+  list-style: none;
+}
+@media only screen and (min-width: 62em) {
+  .category-products__list {
+    gap: 160px;
+  }
+}
+
 /* MAIN CONTENT */
 .main-content {
   flex-grow: 1;

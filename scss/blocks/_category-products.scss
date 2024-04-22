@@ -1,0 +1,26 @@
+/* CATEGORY-PRODUCTS */
+
+.category-products {
+  padding-top: 64px;
+  padding-bottom: 120px;
+
+  @include breakpoint-up(48em) {
+    padding-top: 120px;
+  }
+
+  @include breakpoint-up(62em) {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+}
+
+.category-products__list {
+  display: grid;
+  gap: 120px;
+  padding: 0;
+  list-style: none;
+
+  @include breakpoint-up(62em) {
+    gap: 160px;
+  }
+}
