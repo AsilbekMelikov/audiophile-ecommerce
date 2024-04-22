@@ -1,0 +1,27 @@
+/* CATEGORY HERO */
+
+.category-hero {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: $color-black;
+  color: $color-white;
+  text-align: center;
+
+  @include breakpoint-up(48em) {
+    padding-top: 104px;
+    padding-bottom: 96px;
+  }
+}
+
+.category-hero__title {
+  font-size: 1.75rem;
+  line-height: normal;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+
+  @include breakpoint-up(48em) {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    letter-spacing: 0.08931rem;
+  }
+}
